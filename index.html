@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+   
+
+    form{
+        background-color: blue;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    input{
+        border-radius: 45px;
+        border: 1px solid black;
+        color: rgb(0, 0, 0);
+        width: 20em;
+        height: 2em;
+        margin-top: 20px;
+    }
+    button{
+        border-radius: 45px;
+        border: none;
+        background-color: black;
+        color: white;
+        width: 5em;
+        height: 2em;
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <form action="https://formsubmit.co/chargiiphone7@gmail.com" method="POST">
+        <input type="text" name="name"  placeholder="Type Text" required>
+        <input type="email" name="email" placeholder="Type Email" required>
+        <button type="submit">Send</button>
+   </form>
+</body>
+</html>
